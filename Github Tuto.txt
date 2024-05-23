@@ -1,0 +1,53 @@
+**GIT
+100 people working on a folder
+Maintain the history, what u did on 1 Jul,2 Jul,3 Jul..
+Version control system.
+
+
+**GitHUB
+Platform/online website that allow us to host our git repositories.
+
+**Repository is a folder where all the changes stored.
+
+git init -> this will initialize empty GIT repository on local folder
+ 
+git status -> used to check the details in repository
+git add . -> maintain history of all the files in repo. All will be inside staged.
+git add names.txt -> maintain history of names.txt file
+
+git restore --staged names.txt -> remove the file from staged 
+
+git commit -m "names.txt file is added" -> the changes has been added in permanently
+
+git log -> this will show all the history of the repository/folder.
+
+**remove the file
+rm -rf names.txt 
+git add .
+git commit -m "names.txt is deleted"
+
+git stash -> changes will be stored in backstage and now u can see only the last committed data.
+git stash pop -> all the back stage come to unstage area.
+git stash clear -> all backstage will be cleared.
+
+git remote add origin url_from_git -> the local folder is attached to GitHub url
+git remote -v  -> check the url attached to the folder.
+git push origin master -> all local changes will save to remote.
+
+git branch new-branch -> new branch will be created
+git checkout new-branch -> HEAD is pointing towards new-branch
+
+git merger new-branch -> now this branch will be main branch and people will see the code changes 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
