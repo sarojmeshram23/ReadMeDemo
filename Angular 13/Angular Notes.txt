@@ -1,0 +1,13 @@
+npm install -> This will create node_modules inside your project
+npm run build -> This is similar to VS build
+npm run start -> used to execute application.
+
+lint -> this checks the warnings similar to VS
+Package.json -> This is important as this has all the details related to packages, command
+
+Everything resides under src folder.
+
+app.config.json -> configuration related file. (for production)
+app.setting.local.json -> this is for local
+
+For Debgging on local -> Browser - sources 
