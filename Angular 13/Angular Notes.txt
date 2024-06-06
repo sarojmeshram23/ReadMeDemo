@@ -11,3 +11,10 @@ app.config.json -> configuration related file. (for production)
 app.setting.local.json -> this is for local
 
 For Debgging on local -> Browser - sources 
+
+****Application****
+Application start from app module. (app/app.module.ts)
+
+****What is less stylesheet ?****
+
+

@@ -1,0 +1,6 @@
+Inside Browser we debug if we use edge browser
+1. Network
+2. Source to debug particular component.
+3. Use console to check any object, 
+   JSON.stringify()
+
