@@ -1,3 +1,7 @@
 Typescript is a free, open source language used to develop client side and server side applications.
 
-Typescript is a superset of JavaScript. 
+Typescript is a superset of JavaScript. Its like icing on the cake enahancing the power of javascript.
+
+When a TypeScript code is complied, it results in JavaScript code and thus it can run at all instances where javascript can run.
+ 
+ 

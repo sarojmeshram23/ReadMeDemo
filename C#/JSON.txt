@@ -1,0 +1,23 @@
+When serializing C# objects to JavaScript Object Notation (JSON), by default, all public properties are serialized. If you don't want some of them to appear in the resulting JSON, you have several options.
+
+> Individual properties
+> All read-only properties
+> All null-value properties
+> All default-value properties
+
+Ignore individual properties
+To ignore individual properties, use the [JsonIgnore] attribute.
+
+public class WeatherForecastWithIgnoreAttribute
+{
+    public DateTimeOffset Date { get; set; }
+    public int TemperatureCelsius { get; set; }
+    [JsonIgnore]
+    public string? Summary { get; set; }
+}
+
+
+{
+  "Date": "2019-08-01T00:00:00-07:00",
+  "TemperatureCelsius": 25,
+}
